@@ -57,7 +57,7 @@ def correct(code):
     newcode = ""
 
     for i in code:
-        if i in "abcdefghijlmnopqrstuvwxyz1234567890":
+        if i in "abcdefghijklmnopqrstuvwxyz1234567890":
             newcode += i
     
     return newcode
